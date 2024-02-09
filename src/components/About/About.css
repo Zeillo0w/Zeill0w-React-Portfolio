@@ -1,0 +1,112 @@
+.About-Container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+    margin: 5rem 0;
+}
+
+.About-me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, #7e61e7, transparent);
+    display: grid;
+    place-items: center;
+}
+
+.About-Me-Image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+    transition: all 0.2s ease-in-out;
+}
+
+.About-Me-Image:hover{
+    transform: rotate(0deg);
+}
+
+.About-Me-Image img {
+    width: 101%;
+    height: auto;
+}
+
+.About-Cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.About-Card{
+    background: linear-gradient(45deg, transparent, #7e61e7, transparent);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.About-Card:hover {
+    background: transparent;
+    border-color : #a993fe;
+}
+
+.About-Icon {
+    width: 2rem;
+    height: auto;
+
+}
+
+.About-Card h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+}
+
+.About-Content p {
+    margin: 2rem 0 2.6rem;
+    color: #fff;
+    border-right: #7e61e7 1px solid;
+    border-left: #7e61e7 1px solid;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.About-Content p span {
+    color: #707070;
+}
+
+@media (max-width: 1024px) {
+    .About-Container {
+        grid-template-columns: 1fr;
+        gap: 0rem;
+    }
+
+    .About-me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .About-content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .About-Me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .About-Cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .About-Content {
+        text-align: center;
+    }
+
+    .About-Content p {
+        margin: 1.5rem 0;
+    }
+}
