@@ -32,7 +32,7 @@ const CTF = () => {
             <h5>My CTF</h5>
 
             <div className="CTF-content">
-
+                
                 <Slider ref={sliderRef} {...settings}>
                     {FLAG.map((item) => (
                         <CTFCard key={item.title} details={item} />
@@ -44,4 +44,3 @@ const CTF = () => {
 }
 
 export default CTF
-
