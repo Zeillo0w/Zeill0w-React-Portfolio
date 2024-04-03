@@ -10,8 +10,8 @@ function Hero() {
         </h2>
         <p>Passionate young Pentester | In love with Frontend Web Developpement and simple Animations </p>
         <div className="skills-header">
-          <a className="cv-button" target="blank_" href="https://drive.google.com/file/d/1rJqiNAXDu1LBVdVJGNuGGsozQKp3wL7T/view">CV</a>
-          <a className="linkedin-button" target="blank_" href="https://drive.google.com/file/d/1tCVhpic5kJiCOTsscGm5fDuDtq0oY5fI/view?usp=drive_link">LinkedIn</a>
+          <a className="cv-button" target="blank_" href="https://drive.google.com/file/d/1tCVhpic5kJiCOTsscGm5fDuDtq0oY5fI/view?usp=drive_link">CV</a>
+          <a className="linkedin-button" target="blank_" href="https://www.linkedin.com/in/yanis-ghanem-b6981b2b1/">LinkedIn</a>
           <a className="github-button" target="blank_" href="https://github.com/Zeillo0w">GitHub</a>
         </div>
       </div>
